@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #2f78e6);
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        /* Back Button Styles */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #2f78e6;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #1a1a1a;
+            color: #2f78e6;
+        }
+
+        /* Main Content Styles */
+        .coming-soon-text {
+            font-size: 2.5em;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .sub-text {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #e0e0e0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .coming-soon-text {
+                font-size: 2em;
+            }
+
+            .sub-text {
+                font-size: 1.2em;
+            }
+
+            .back-button {
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .coming-soon-text {
+                font-size: 1.5em;
+            }
+
+            .sub-text {
+                font-size: 1em;
+            }
+
+            .back-button {
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="javascript:history.back()" class="back-button">Back</a>
+    <div>
+        <p class="coming-soon-text">Coming soon!</p>
+        <p class="sub-text">Currently developing it. Stay tuned!</p>
+    </div>
+</body>
+</html>
