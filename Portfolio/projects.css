@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #2f78e6;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #2f78e6;
+}
+
+header {
+    background-color: #2f78e6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.github-link {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.github-link a {
+    text-decoration: none;
+    color: #2f78e6;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.github-link a img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: #2f78e6;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2f78e6;
+    padding-bottom: 5px;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.ui-image {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.ui-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2f78e6;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .back-button {
+        margin: 10px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .back-button {
+        margin: 5px;
+        padding: 5px 10px;
+    }
+}

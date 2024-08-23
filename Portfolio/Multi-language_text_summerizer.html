@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Language Text Summarizer</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <a href="index.html" class="back-button">Home</a>
+    <header>
+        <h1>Multi-Language Text Summarizer</h1>
+    </header>
+
+    <div class="container">
+        <div class="github-link">
+            <a href="https://github.com/Satyajeet1718/Multi-Language-Text-Summerizer/tree/main" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+                View on GitHub
+            </a>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Overview</h2>
+            <p>The Multi-language text summarizer is a Python-based tool designed to efficiently summarize text in multiple languages, including English, Marathi, and Mixed-Language (English, Marathi, and Hindi). It leverages natural language processing (NLP) techniques to reduce long pieces of text into concise summaries. The summarizer offers different reduction modes to control the level of summarization, and it features a user-friendly interface that allows users to easily select their preferred language and reduction mode.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Core Features</h2>
+            <ul>
+                <li><strong>Multi-Language Support:</strong> The summarizer supports text in English, Marathi, and a mixed-language mode (English, Marathi, and Hindi) that can handle text containing all three languages.</li>
+                <li><strong>Reduction Modes:</strong> Users can choose between two reduction levels - Less Reduction and More Reduction, allowing for customizable summary lengths.</li>
+                <li><strong>Interactive UI:</strong> A clean, interactive interface created using Jupyter Notebook widgets, enabling easy text input and summary generation with just a few clicks.</li>
+                <li><strong>Real-Time Processing:</strong> The tool processes and summarizes the text in real-time, providing instant feedback to the user.</li>
+                <li><strong>Custom Stopwords Handling:</strong> Specific stopword lists are implemented for each language to improve the accuracy of the summarization.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Technologies Used</h2>
+            <ul>
+                <li><strong>Python:</strong> The primary programming language used for implementing the summarizer.</li>
+                <li><strong>NLTK (Natural Language Toolkit):</strong> Used for tokenization, sentence segmentation, and handling stopwords.</li>
+                <li><strong>ipywidgets:</strong> Provides the interactive UI components like text areas, buttons, and dropdowns in the Jupyter Notebook environment.</li>
+                <li><strong>Google Colab/Jupyter Notebook:</strong> The environment used to run and display the summarizer, allowing for easy interaction and visualization.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Challenges and Solutions</h2>
+            <ul>
+                <li><strong>Multi-Language Support:</strong> Handling multiple languages, especially non-English languages like Marathi and Hindi, posed challenges due to different tokenization and stopword requirements. This was addressed by creating custom stopword lists and ensuring the NLTK tokenization worked correctly across languages.</li>
+                <li><strong>Mixed-Language Texts:</strong> Supporting a mix of languages in the same text required a flexible stopword system that could handle words from different languages simultaneously. This was achieved by merging stopword lists for the mixed-language mode.</li>
+                <li><strong>UI Design:</strong> Designing an intuitive user interface within a Jupyter Notebook environment had its constraints. These were overcome by using ipywidgets to create a simple, yet functional, layout that allows users to interact with the summarizer easily.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Impact and Applications</h2>
+            <p>This summarizer can be used as an educational tool to help students quickly extract the main points from large amounts of text in different languages. It can also be employed by content creators and curators who need to sift through large volumes of text and need summaries to identify key insights efficiently. Additionally, the tool is particularly useful for researchers working with multilingual texts, enabling them to summarize content across languages without switching tools.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Conclusion</h2>
+            <p>The text summarizer is a powerful, multi-lingual tool that provides concise summaries from lengthy texts. Its ability to handle multiple languages, along with a simple and interactive UI, makes it a versatile application for educational, research, and content curation purposes. While challenges like supporting mixed-language texts were significant, they were successfully addressed, resulting in a robust tool that meets the needs of diverse users.</p>
+        </div>
+
+        <div class="ui-image">
+            <h2 class="section-title">UI Preview</h2>
+            <img src="images/Multi-lang_textsumm.png" alt="Text Summarizer UI">
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Satyajeet Jagtap. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
