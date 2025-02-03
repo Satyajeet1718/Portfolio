@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #333;
-    color: white;
+    background-color: #F5F3EE; /* Light Beige */
+    color: #3B3A36; /* Dark Gray */
     margin: 0;
     padding: 0;
 }
@@ -10,20 +10,21 @@ body {
     display: inline-block;
     margin: 20px;
     padding: 10px 20px;
-    background-color: #2f78e6;
+    background-color: #6B5D4F; /* Deep Brown */
     color: white;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .back-button:hover {
-    background-color: #2f78e6;
+    background-color: #3B3A36; /* Dark Gray */
 }
 
 header {
-    background-color: #2f78e6;
-    color: white;
+    background-color: #D1C6B3; /* Warm Beige */
+    color: #3B3A36;
     padding: 20px 0;
     text-align: center;
 }
@@ -37,7 +38,7 @@ header h1 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #121212;
+    background-color: #EDE8E0; /* Softer Beige */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -49,7 +50,7 @@ header h1 {
 
 .github-link a {
     text-decoration: none;
-    color: #2f78e6;
+    color: #6B5D4F; /* Deep Brown */
     font-weight: bold;
     display: inline-flex;
     align-items: center;
@@ -62,9 +63,9 @@ header h1 {
 
 .section-title {
     font-size: 1.8rem;
-    color: #2f78e6;
+    color: #6B5D4F; /* Deep Brown */
     margin-bottom: 15px;
-    border-bottom: 2px solid #2f78e6;
+    border-bottom: 2px solid #6B5D4F;
     padding-bottom: 5px;
 }
 
@@ -86,13 +87,13 @@ ul {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2f78e6;
+    background-color: #6B5D4F; /* Deep Brown */
     color: white;
 }
 
