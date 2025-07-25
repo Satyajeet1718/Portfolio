@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Summarizer: Multi-Modal Processing</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <a href="javascript:history.back()" class="back-button">Back</a>
+    <header>
+        <h1>AI Summarizer: Multi-Modal Processing</h1>
+    </header>
+
+    <div class="container">
+        <div class="github-link">
+            <a href="https://github.com/rahul-dhamdhere/Ai_based_Text_Summarizer" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+                View on GitHub
+            </a>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Overview</h2>
+            <p>This project started ‘cause we were tired of spending hours on long lecture notes and meetings—why not let an AI do the heavy lifting? We built a Python-powered tool that summarizes both text and audio (like lectures or voice memos!) and even throws in a chatbot to chat about it, all running right on your laptop with no internet needed. We spent late nights figuring it out, using cool models like Whisper for audio magic, Nomic for picking key points, and DeepSeek for rewriting and chatting. What makes it special is it works offline for privacy, handles different input types, and has a web interface we coded from scratch—kinda messy at first, but we got it looking decent! It’s our little brainchild to save time and make studying or work a bit less of a headache.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Core Features</h2>
+            <ul>
+                <li><strong>Multi-Modal Support:</strong> Handles both text and audio inputs for summarizing.</li>
+                <li><strong>Chatbot Fun:</strong> Comes with a chatbot that answers questions about the summary—super handy!</li>
+                <li><strong>Local Processing:</strong> Runs everything offline, keeping your stuff private.</li>
+                <li><strong>Customizable Summaries:</strong> Offers extractive (65% length) and abstractive summaries for flexibility.</li>
+                <li><strong>Web Interface:</strong> Easy-to-use page with upload, record, and chat options.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Technologies Used</h2>
+            <ul>
+                <li><strong>Python:</strong> Our main coding buddy for the whole project.</li>
+                <li><strong>Flask:</strong> Built the website backend to tie everything together.</li>
+                <li><strong>Whisper:</strong> Turns audio into text like magic!</li>
+                <li><strong>Nomic:</strong> Picks the important sentences for summaries.</li>
+                <li><strong>DeepSeek:</strong> Handles rewriting and chatbot chats.</li>
+                <li><strong>HTML/JavaScript:</strong> Made the front end look decent and work smooth.</li>
+                <li><strong>SQLite:</strong> Stores chat history locally.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Challenges and Solutions</h2>
+            <ul>
+                <li><strong>Huge Models:</strong> The models were massive and slowed our laptops down—we cleared space and stuck to smaller versions like Whisper small.</li>
+                <li><strong>Audio Limits:</strong> Big audio files crashed Whisper, so we capped recordings at 5 minutes and it worked like a charm.</li>
+                <li><strong>UI Design:</strong> We’re no design pros, so we watched YouTube tutorials to make the website look okay!</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Impact and Applications</h2>
+            <p>Awesome for students, teachers, or anyone with tons of notes or meetings to summarize. It’s great for private use since it runs offline, and the chatbot makes it fun to dig into summaries without extra tools.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Conclusion</h2>
+            <p>Our AI Summarizer rocks with a 77.46% accuracy—best at fluency (87.67%) and coherence (84.32%), though it needs work on completeness (68.92%) and facts (72.40%). Super proud of this handy, offline tool!</p>
+        </div>
+
+        <div class="ui-image">
+            <h2 class="section-title">UI Preview</h2>
+            <img src="images/AI_Summarizer_UI.png" alt="AI Summarizer UI">
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
